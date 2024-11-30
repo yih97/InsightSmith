@@ -1,0 +1,31 @@
+name: Close Done Issues
+
+on:
+  issues:
+    types: [labeled, edited]
+
+jobs:
+  close_done_issues:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if issue is done
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issue = context.payload.issue;
+            const statusLabel = issue.labels.find(label => label.name.toLowerCase() === 'done');
+
+            if (statusLabel) {
+              // Issue is marked as done, close the issue
+              await github.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed'
+              });
+              console.log(`Issue #${issue.number} is marked as done and has been closed.`);
+            } else {
+              console.log(`Issue #${issue.number} is not marked as done.`);
+            }

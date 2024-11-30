@@ -1,0 +1,16 @@
+site_name: VisionForge Docs
+theme:
+  name: material
+
+plugins:
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+      python:
+      paths: [ src/visionforge ]
+
+nav:
+  - Home: index.md
+  - Edge Detection: edge_detection.md
+  - Face Processing: face_processing.md
+  - Pose Estimation: pose_estimation.md

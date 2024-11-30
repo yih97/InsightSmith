@@ -1,0 +1,24 @@
+{
+  "prompt": "dels, dels asian girl, beautiful city view, night view back ground, outdoors, black clothes, long hair, high quality, looking at viewer, half-body, best quality, masterpiece, realistic, 1girl",
+  "negative_prompt": "(deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime)1.4, text, cropped, out of frame, (worst quality, low quality)1.2, jpeg artifacts, duplicate, morbid, mutilated, extra fingers,  mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, BadDream, UnrealisticDream, full body, hands+++, hat, watermark, monochrome, people,hair accessories, nsfw, nude,open mouth",
+  "controlnet_images": [
+    "openpose_template",
+    "canny_template",
+    "softedge_template"
+  ],
+  "num_inference_steps": 35,
+  "strength": 7,
+  "clip_skip": 2,
+  "num_images_per_prompt": 2,
+  "use_compel": true,
+  "height": 768,
+  "width": 512,
+  "controlnet_conditioning_scale": [
+                0.8,
+                0.8,
+                0.9
+            ],
+  "cross_attention_kwargs": {
+                "scale": 0.5
+            }
+}

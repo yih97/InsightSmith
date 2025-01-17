@@ -1,9 +1,11 @@
-# Welcome to VisionForge  
+---
+
+# Welcome to InsightSmith  
 
 ---
 
 ### **프로젝트 개요**  
-**VisionForge**는 **Diffusion Model**을 기반으로, 사용자가 사진을 업로드하면 다양한 테마에 맞춘 나만의 AI 사진을 생성해주는 서비스입니다.  
+**InsightSmith**는 **Diffusion Model**을 기반으로, 사용자가 사진을 업로드하면 다양한 테마에 맞춘 나만의 AI 사진을 생성해주는 서비스입니다.  
 이 서비스를 통해 창의적이고 맞춤형 이미지 생성 경험을 제공합니다.  
 **단, 상업적 목적으로의 사용은 금지됩니다.**
 
@@ -29,26 +31,26 @@
 ## **Installation Steps**  
 
 ### 1. **Clone the Repository**  
-아래 명령어를 실행하여 VisionForge 레포지토리를 로컬에 복제합니다:  
+아래 명령어를 실행하여 InsightSmith 레포지토리를 로컬에 복제합니다:  
 ```bash
-git clone https://github.com/forms-dev/VisionForge.git
+git clone https://github.com/forms-dev/InsightSmith.git
 ```
 
 ---
 
 ### 2. **Change Permissions**  
-VisionForge 디렉터리와 설치 스크립트의 실행 권한을 변경합니다:  
+InsightSmith 디렉터리와 설치 스크립트의 실행 권한을 변경합니다:  
 ```bash
-sudo chmod u+x VisionForge
-sudo chmod u+x VisionForge/setup.sh
+sudo chmod u+x InsightSmith
+sudo chmod u+x InsightSmith/setup.sh
 ```
 
 ---
 
 ### 3. **Run the Setup Script**  
-VisionForge 디렉터리로 이동하여 설치 스크립트를 실행합니다:  
+InsightSmith 디렉터리로 이동하여 설치 스크립트를 실행합니다:  
 ```bash
-cd VisionForge
+cd InsightSmith
 ./setup.sh
 ```
 
@@ -60,7 +62,7 @@ cd VisionForge
 
 ---
 
-### **VisionForge의 특징**  
+### **InsightSmith의 특징**  
 - **Diffusion Model**을 사용하여 고품질 AI 이미지를 생성.  
 - 사용자가 업로드한 사진을 분석해 **테마 기반 맞춤형 이미지**를 제공합니다.  
 - 다양한 테마와 스타일을 통해 창의적인 이미지 제작 가능.  
@@ -68,7 +70,7 @@ cd VisionForge
 ---
 
 ### **중요 안내**  
-- VisionForge는 **비상업적 목적**으로만 사용 가능합니다.  
+- InsightSmith는 **비상업적 목적**으로만 사용 가능합니다.  
 - 상업적 목적으로의 사용은 **엄격히 금지**됩니다.  
 
-지금 VisionForge를 설치하고 나만의 AI 사진을 만나보세요!  
+지금 InsightSmith를 설치하고 나만의 AI 사진을 만나보세요!

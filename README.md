@@ -33,7 +33,7 @@
 ### 1. **Clone the Repository**  
 아래 명령어를 실행하여 InsightSmith 레포지토리를 로컬에 복제합니다:  
 ```bash
-git clone https://github.com/forms-dev/InsightSmith.git
+git clone https://github.com/yih97/InsightSmith.git
 ```
 
 ---

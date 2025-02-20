@@ -58,6 +58,7 @@ cd InsightSmith
     <img src="https://github.com/user-attachments/assets/4870e3e2-4278-4f83-9227-1f09c10f58d9" alt="파리 스타일 여성" width="300" height="300" style="object-fit: cover;">
     <img src="https://github.com/user-attachments/assets/a467b37d-276a-4511-be64-6774eb70f5d6" alt="인도네시아 스타일 여성" width="300" height="300" style="object-fit: cover;">
     <img src="https://github.com/user-attachments/assets/5089db6d-a093-4cab-b2fa-e8c117c87b37" alt="이집트 스타일 여성" width="300" height="300" style="object-fit: cover;">
+    <img src="https://github.com/user-attachments/assets/c56d0e4c-6f10-4428-b27e-1e942631b361" alt="미국 스타일 여성" width="300" height="300" style="object-fit: cover;">
 </div>
 
 ※ 실제 결과물은 입력 이미지와 설정에 따라 다를 수 있습니다.
